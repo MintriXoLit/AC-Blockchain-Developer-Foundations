@@ -2,6 +2,7 @@ import { HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
 import * as dotenv from "dotenv";
 import "hardhat-deploy";
+import "hardhat-deploy-ethers";
 
 dotenv.config();
 const config: HardhatUserConfig = {
